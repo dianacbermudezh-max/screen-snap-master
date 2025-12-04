@@ -6,6 +6,7 @@ import { Button } from "./ui/button";
 const navLinks = [
   { href: "#inicio", label: "Inicio" },
   { href: "#domos", label: "Domos" },
+  { href: "#galeria", label: "Galería" },
   { href: "#servicios", label: "Servicios" },
   { href: "#contacto", label: "Contacto" },
 ];
@@ -51,7 +52,7 @@ export const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <Button variant="outline" size="sm" asChild>
+          <Button variant="default" size="sm" asChild>
             <a href="https://wa.me/573196861514" target="_blank" rel="noopener noreferrer">
               Reservar
             </a>
