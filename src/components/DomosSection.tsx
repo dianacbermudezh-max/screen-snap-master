@@ -13,6 +13,7 @@ const domos = [
       "Un entorno donde los sonidos del río son mágicos y relajantes. Disfruta de la intimidad y la conexión con el agua.",
     features: ["Jacuzzi", "Baño Privado", "Malla Catamarán", "Sonido del Río"],
     image: domoPathway,
+    price: "$300.000",
   },
   {
     name: "El Árbol del Amor",
@@ -21,6 +22,7 @@ const domos = [
       "Literalmente como dormir en la casita del árbol. Construido en una plataforma que atraviesa un grande y majestuoso árbol.",
     features: ["Jacuzzi Climatizado", "Baño Privado", "Plataforma Elevada"],
     image: domosExterior,
+    price: "$250.000",
   },
   {
     name: "Luxury Glam",
@@ -29,6 +31,7 @@ const domos = [
       "Confortable y más amplio, ideal para relajarse. Equipado con lo mejor para tu descanso, rodeado de naturaleza.",
     features: ["Ducha Privada", "Silla Columpio", "Malla Catamarán", "Cama Queen"],
     image: domoInterior,
+    price: "$350.000",
   },
   {
     name: "Luxury Gold",
@@ -37,6 +40,7 @@ const domos = [
       "Nuestro domo más exclusivo y privado, literal está en una isla. Un espacio para recordar la intimidad con la creación.",
     features: ["En una Isla", "Máxima Privacidad", "Exclusivo"],
     image: romanticSetup,
+    price: "$350.000",
   },
 ];
 
