@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { href: "#inicio", label: "Inicio" },
@@ -35,10 +36,12 @@ export const Navbar = () => {
       }`}
     >
       <nav className="container mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
-        <a href="#inicio" className="flex items-center gap-2">
-          <span className="font-serif text-2xl md:text-3xl font-semibold text-foreground">
-            Nebraska<span className="text-primary">.</span>
-          </span>
+        <a href="#inicio" className="flex items-center">
+          <img 
+            src={logo} 
+            alt="Nebraska Glamping" 
+            className="h-12 md:h-14 w-auto"
+          />
         </a>
 
         {/* Desktop Navigation */}

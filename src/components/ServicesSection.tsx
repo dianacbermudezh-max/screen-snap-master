@@ -8,6 +8,9 @@ import {
   UtensilsCrossed,
   Clock,
   Sparkles,
+  Heart,
+  Cake,
+  PartyPopper,
 } from "lucide-react";
 import breakfastImage from "@/assets/breakfast.jpg";
 
@@ -18,6 +21,12 @@ const services = [
   { icon: Flame, label: "Zona de Fogata", included: true },
   { icon: Waves, label: "Acceso al Río", included: true },
   { icon: UtensilsCrossed, label: "Zona de Asados", included: true },
+];
+
+const romanticDecorations = [
+  { icon: Heart, label: "Decoración Romántica", description: "Pétalos, velas y detalles especiales" },
+  { icon: Cake, label: "Cumpleaños", description: "Celebra tu día especial" },
+  { icon: PartyPopper, label: "Aniversario", description: "Momentos inolvidables" },
 ];
 
 const schedules = [
@@ -101,6 +110,30 @@ export const ServicesSection = () => {
                   <span className="text-foreground text-sm">{service.label}</span>
                 </motion.div>
               ))}
+            </div>
+
+            {/* Romantic Decorations Highlight */}
+            <div className="mb-8 p-5 rounded-xl bg-primary/10 border border-primary/20">
+              <h3 className="text-foreground font-semibold mb-4 flex items-center gap-2">
+                <Heart className="w-5 h-5 text-primary" />
+                Decoraciones Especiales
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {romanticDecorations.map((item, index) => (
+                  <motion.div
+                    key={item.label}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: index * 0.1, duration: 0.3 }}
+                    viewport={{ once: true }}
+                    className="text-center p-3 rounded-lg bg-background/50"
+                  >
+                    <item.icon className="w-6 h-6 text-primary mx-auto mb-2" />
+                    <p className="text-foreground text-sm font-medium">{item.label}</p>
+                    <p className="text-muted-foreground text-xs">{item.description}</p>
+                  </motion.div>
+                ))}
+              </div>
             </div>
 
             {/* Schedules */}
