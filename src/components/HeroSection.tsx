@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { Button } from "./ui/button";
-import heroImage from "@/assets/domo-night.jpg";
+import heroImage from "@/assets/hero-domo.jpg";
 
 export const HeroSection = () => {
   return (
