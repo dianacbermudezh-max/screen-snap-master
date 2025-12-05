@@ -35,11 +35,6 @@ export const DomoCard = ({
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
-        <div className="absolute top-4 left-4">
-          <span className="bg-primary/90 text-primary-foreground px-3 py-1 rounded-full text-xs font-medium">
-            {subtitle}
-          </span>
-        </div>
       </div>
 
       {/* Content */}
