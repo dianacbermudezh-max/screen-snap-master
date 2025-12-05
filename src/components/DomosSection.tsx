@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { DomoCard } from "./DomoCard";
-import domoPathway from "@/assets/domo-pathway.jpg";
-import domoInterior from "@/assets/domo-interior.jpg";
-import domosExterior from "@/assets/domos-exterior.jpg";
-import romanticSetup from "@/assets/romantic-setup.jpg";
+import rioDelAmor from "@/assets/rio-del-amor.jpg";
+import arbolDelAmor from "@/assets/arbol-del-amor.jpg";
+import luxuryGlam from "@/assets/luxury-glam.jpg";
+import luxuryGold from "@/assets/luxury-gold.jpg";
 
 const domos = [
   {
@@ -12,7 +12,7 @@ const domos = [
     description:
       "Un entorno donde los sonidos del río son mágicos y relajantes. Disfruta de la intimidad y la conexión con el agua.",
     features: ["Jacuzzi", "Baño Privado", "Malla Catamarán", "Sonido del Río"],
-    image: domoPathway,
+    image: rioDelAmor,
     price: "$300.000",
   },
   {
@@ -21,7 +21,7 @@ const domos = [
     description:
       "Literalmente como dormir en la casita del árbol. Construido en una plataforma que atraviesa un grande y majestuoso árbol.",
     features: ["Jacuzzi Climatizado", "Baño Privado", "Plataforma Elevada"],
-    image: domosExterior,
+    image: arbolDelAmor,
     price: "$250.000",
   },
   {
@@ -30,7 +30,7 @@ const domos = [
     description:
       "Confortable y más amplio, ideal para relajarse. Equipado con lo mejor para tu descanso, rodeado de naturaleza.",
     features: ["Ducha Privada", "Silla Columpio", "Malla Catamarán", "Cama Queen"],
-    image: domoInterior,
+    image: luxuryGlam,
     price: "$350.000",
   },
   {
@@ -39,7 +39,7 @@ const domos = [
     description:
       "Nuestro domo más exclusivo y privado, literal está en una isla. Un espacio para recordar la intimidad con la creación.",
     features: ["En una Isla", "Máxima Privacidad", "Exclusivo"],
-    image: romanticSetup,
+    image: luxuryGold,
     price: "$350.000",
   },
 ];

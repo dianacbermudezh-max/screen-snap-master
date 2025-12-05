@@ -2,24 +2,20 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
-import domoPathway from "@/assets/domo-pathway.jpg";
-import domoNight from "@/assets/domo-night.jpg";
-import domoInterior from "@/assets/domo-interior.jpg";
-import domosExterior from "@/assets/domos-exterior.jpg";
-import romanticSetup from "@/assets/romantic-setup.jpg";
+import fogata from "@/assets/fogata.jpg";
+import jacuzzi from "@/assets/jacuzzi.jpg";
+import decoracion from "@/assets/decoracion.jpg";
+import mallaCatamaran from "@/assets/malla-catamaran.jpg";
 import breakfast from "@/assets/breakfast.jpg";
-import catamaran from "@/assets/catamaran.jpg";
-import nightLights from "@/assets/night-lights.jpg";
+import spa from "@/assets/spa.jpg";
 
 const images = [
-  { src: domoNight, alt: "Domo geodésico iluminado de noche entre bambúes" },
-  { src: domoPathway, alt: "Sendero hacia el domo rodeado de naturaleza" },
-  { src: romanticSetup, alt: "Decoración romántica para ocasiones especiales" },
-  { src: domoInterior, alt: "Interior acogedor del domo con cama" },
-  { src: domosExterior, alt: "Vista exterior de los domos elevados" },
-  { src: breakfast, alt: "Desayuno artesanal con vista al río" },
-  { src: catamaran, alt: "Malla catamarán con vista a la naturaleza" },
-  { src: nightLights, alt: "Iluminación nocturna mágica del glamping" },
+  { src: fogata, alt: "Fogata nocturna para momentos especiales" },
+  { src: jacuzzi, alt: "Jacuzzi con vista a la naturaleza" },
+  { src: decoracion, alt: "Decoración romántica para ocasiones especiales" },
+  { src: mallaCatamaran, alt: "Malla catamarán sobre el río" },
+  { src: breakfast, alt: "Desayuno artesanal incluido" },
+  { src: spa, alt: "Servicio de spa junto al río" },
 ];
 
 export const GallerySection = () => {
