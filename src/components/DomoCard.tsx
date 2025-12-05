@@ -7,6 +7,7 @@ interface DomoCardProps {
   features: string[];
   image: string;
   index: number;
+  price: string;
 }
 
 export const DomoCard = ({
@@ -16,6 +17,7 @@ export const DomoCard = ({
   features,
   image,
   index,
+  price,
 }: DomoCardProps) => {
   return (
     <motion.article
@@ -46,6 +48,15 @@ export const DomoCard = ({
         <p className="text-muted-foreground text-sm leading-relaxed mb-4">
           {description}
         </p>
+
+        {/* Price */}
+        <div className="mb-4 p-4 bg-primary/10 rounded-xl border border-primary/20">
+          <div className="flex items-baseline gap-1">
+            <span className="text-2xl font-bold text-primary">{price}</span>
+            <span className="text-muted-foreground text-sm">/ pareja en semana</span>
+          </div>
+          <p className="text-xs text-muted-foreground mt-1">✓ Incluye desayunos</p>
+        </div>
 
         {/* Features */}
         <div className="flex flex-wrap gap-2">
