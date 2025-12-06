@@ -24,7 +24,7 @@ const services = [
 ];
 
 const romanticDecorations = [
-  { icon: Heart, label: "Decoración Romántica", description: "Pétalos, velas y detalles especiales" },
+  { icon: Heart, label: "Decoración Romántica", description: "Bombas metalizadas, guirnaldas, letrero y vino 🍷" },
   { icon: Cake, label: "Cumpleaños", description: "Celebra tu día especial" },
   { icon: PartyPopper, label: "Aniversario", description: "Momentos inolvidables" },
 ];
