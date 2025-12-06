@@ -11,6 +11,8 @@ import {
   Heart,
   Cake,
   PartyPopper,
+  Users,
+  UsersRound,
 } from "lucide-react";
 import breakfastImage from "@/assets/breakfast.jpg";
 
@@ -27,6 +29,8 @@ const romanticDecorations = [
   { icon: Heart, label: "Decoración Romántica", description: "Bombas metalizadas, guirnaldas, letrero y vino 🍷" },
   { icon: Cake, label: "Cumpleaños", description: "Celebra tu día especial" },
   { icon: PartyPopper, label: "Aniversario", description: "Momentos inolvidables" },
+  { icon: Users, label: "Momentos en Familia", description: "Comparte con los tuyos" },
+  { icon: UsersRound, label: "Parche de Amigos", description: "Diversión garantizada" },
 ];
 
 const schedules = [
