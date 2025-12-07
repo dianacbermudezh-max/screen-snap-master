@@ -14,7 +14,7 @@ import {
   Users,
   UsersRound,
 } from "lucide-react";
-import breakfastImage from "@/assets/breakfast.jpg";
+import spaImage from "@/assets/spa.jpg";
 
 const services = [
   { icon: Coffee, label: "Desayuno Artesanal", included: true },
@@ -53,8 +53,8 @@ export const ServicesSection = () => {
           >
             <div className="relative rounded-2xl overflow-hidden">
               <img
-                src={breakfastImage}
-                alt="Desayuno artesanal en Nebraska Glamping con vista al río"
+                src={spaImage}
+                alt="Masajes relajantes en Nebraska Glamping en medio del bosque"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
