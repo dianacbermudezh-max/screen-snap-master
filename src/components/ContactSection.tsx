@@ -138,10 +138,10 @@ export const ContactSection = () => {
               </div>
             </div>
 
-            {/* Map placeholder */}
+            {/* Map */}
             <div className="mt-10 rounded-xl overflow-hidden border border-border/50">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.123!2d-76.2847222!3d3.9036111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3a45c8c8c8c8c8%3A0x1234567890abcdef!2sGlamping%20Nebraska!5e0!3m2!1ses!2sco!4v1701676800000!5m2!1ses!2sco"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.1234567890!2d-76.3038889!3d3.8977778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3a05f9df6d8e5b%3A0x4c8f0b9d8e7a6b5c!2sGlamping%20Nebraska!5e0!3m2!1ses!2sco!4v1701676800000!5m2!1ses!2sco"
                 width="100%"
                 height="200"
                 style={{ border: 0 }}
@@ -151,6 +151,18 @@ export const ContactSection = () => {
                 title="Ubicación Nebraska Glamping"
                 className="grayscale hover:grayscale-0 transition-all duration-500"
               />
+            </div>
+
+            {/* Payment Info */}
+            <div className="mt-8 p-5 bg-primary/10 rounded-xl border border-primary/20">
+              <h4 className="text-foreground font-medium mb-3">💳 Métodos de Pago</h4>
+              <p className="text-muted-foreground text-sm mb-2">
+                No realizamos cobros por esta página. Solo aceptamos pagos en:
+              </p>
+              <ul className="text-foreground text-sm space-y-1">
+                <li><strong>Nequi:</strong> 319 686 1514</li>
+                <li><strong>Bancolombia:</strong> Cta. Ahorros 84800002700</li>
+              </ul>
             </div>
           </motion.div>
 
