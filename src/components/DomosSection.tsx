@@ -14,6 +14,7 @@ const domos = [
     features: ["Jacuzzi", "Baño Privado", "Malla Catamarán", "Sonido del Río"],
     image: rioDelAmor,
     price: "$300.000",
+    weekendPrice: "$350.000",
   },
   {
     name: "El Árbol del Amor",
@@ -23,6 +24,7 @@ const domos = [
     features: ["Jacuzzi Climatizado", "Baño Privado", "Plataforma Elevada"],
     image: arbolDelAmor,
     price: "$250.000",
+    weekendPrice: "$300.000",
   },
   {
     name: "Luxury Glam",
@@ -32,6 +34,7 @@ const domos = [
     features: ["Ducha Privada", "Silla Columpio", "Malla Catamarán", "Cama Queen"],
     image: luxuryGlam,
     price: "$350.000",
+    weekendPrice: "$400.000",
   },
   {
     name: "Luxury Gold",
@@ -41,6 +44,7 @@ const domos = [
     features: ["En una Isla", "Máxima Privacidad", "Exclusivo"],
     image: luxuryGold,
     price: "$350.000",
+    weekendPrice: "$400.000",
   },
 ];
 

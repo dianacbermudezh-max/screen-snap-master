@@ -8,6 +8,7 @@ interface DomoCardProps {
   image: string;
   index: number;
   price: string;
+  weekendPrice: string;
 }
 
 export const DomoCard = ({
@@ -18,6 +19,7 @@ export const DomoCard = ({
   image,
   index,
   price,
+  weekendPrice,
 }: DomoCardProps) => {
   return (
     <motion.article
@@ -50,8 +52,11 @@ export const DomoCard = ({
             <span className="text-2xl font-bold text-primary">{price}</span>
             <span className="text-muted-foreground text-sm">/ pareja en semana</span>
           </div>
-          <p className="text-xs text-muted-foreground mt-1">✓ Incluye desayunos</p>
-          <p className="text-xs text-primary/80 mt-1 font-medium">📅 Sábados y vísperas de festivos: +$50.000</p>
+          <div className="flex items-baseline gap-1 mt-1">
+            <span className="text-lg font-semibold text-primary/80">{weekendPrice}</span>
+            <span className="text-muted-foreground text-xs">/ sábados y vísperas de festivos</span>
+          </div>
+          <p className="text-xs text-muted-foreground mt-2">✓ Incluye desayunos</p>
         </div>
 
         {/* Features */}
