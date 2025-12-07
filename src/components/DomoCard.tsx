@@ -51,6 +51,7 @@ export const DomoCard = ({
             <span className="text-muted-foreground text-sm">/ pareja en semana</span>
           </div>
           <p className="text-xs text-muted-foreground mt-1">✓ Incluye desayunos</p>
+          <p className="text-xs text-primary/80 mt-1 font-medium">📅 Sábados y vísperas de festivos: +$50.000</p>
         </div>
 
         {/* Features */}
