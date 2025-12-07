@@ -65,15 +65,16 @@ export const ServicesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
               viewport={{ once: true }}
-              className="absolute -bottom-6 -right-6 md:right-8 glass-card rounded-xl p-5 shadow-lg"
+              className="absolute -bottom-6 -right-6 md:right-8 glass-card rounded-xl p-5 shadow-lg max-w-[280px]"
             >
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
-                  <Sparkles className="w-6 h-6 text-primary" />
+                <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                  <Sparkles className="w-7 h-7 text-primary" />
                 </div>
                 <div>
-                  <p className="text-foreground font-medium">Spa Disponible</p>
-                  <p className="text-muted-foreground text-sm">Masajes relajantes</p>
+                  <p className="text-foreground font-semibold text-lg">Spa & Masajes</p>
+                  <p className="text-muted-foreground text-sm leading-snug">Relájate en medio del bosque con los sonidos del río</p>
+                  <p className="text-primary font-bold mt-1">$160.000 / pareja</p>
                 </div>
               </div>
             </motion.div>
